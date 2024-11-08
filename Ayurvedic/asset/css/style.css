@@ -1,0 +1,890 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+:root{
+    --white:white;
+    --green:green;
+    --orange:rgb(255, 136, 0);
+    --red:#ff0000;
+    --black:#000000;
+    --darkgreen: rgb(14, 76, 14);
+    --yellow: gold;
+    --brown: brown;
+}
+
+
+/* **************************************** whats-app  section start here ******************************************** */
+
+.whats-app{
+    position: relative;
+    background-color: var(--white);
+
+
+}
+.what-app-section{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+ 
+}
+.what-app-section .fa-brands{
+    font-size: 60px;
+ 
+
+
+}
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity:0;
+}
+}
+
+/* **************************************** whats-app  section end here ******************************************** */
+
+
+
+
+
+/* **************************************** top-navbar section start here ******************************************** */
+
+.top-navbar{
+    background-color: var(--green);
+    padding: 10px;
+}
+.top-navbar .address a{
+    color: var(--white);
+    text-decoration: none;
+}
+.address ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+
+}
+.top-navbar .address ul li{
+ padding-left: 5px;
+ padding-right: 12px;
+margin-right: 6px;
+    list-style: none;
+    color: var(--white);
+}
+.top-navbar .address  .fa-envelope{
+    margin-right: 4px;
+
+}
+.address .fa{
+    color: var(--white);
+    font-size: 22px;
+}
+.top-navbar .social-icon{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: end; */
+
+}
+.social-icon a i{
+    border: 1px solid white;
+    padding: 10px 8px;
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 50%;
+}
+.social-icon .fab{
+    font-size: 20px;
+}
+.social-icon a{
+    
+    text-decoration: none;
+    
+}
+.top-navbar .facebook .fa-facebook{
+    padding: 10px 12px;
+}
+.top-navbar .social-icon a i .fa-facebook{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.top-navbar .fa-linkedin{
+    padding: 10px 12px;
+
+}
+.social-icon{
+    color: var(--white);
+}
+
+.address p{
+    margin-bottom: 0px !important;
+}
+/* **************************************** top-navbar section end here******************************************** */
+
+
+
+
+/* **************************************** navbar section start here******************************************** */
+
+
+.logo img{
+    width: 120px;
+    padding-left:0;
+
+}
+.nav-link{
+    color: var(--black);
+    font-weight: 700px;
+    border-bottom: 1px solid var(--white);
+}
+.nav-link:hover{
+
+border-bottom: 1px solid red;}
+
+.nav-link:hover{
+    color: var(--red) !important;
+}
+#navbarDarkDropdownMenuLink{
+    margin-top: -0px !important;
+    margin-bottom: 0px;
+    margin: 5px;
+    color: var(--black);
+}
+
+
+#service-dropdown{
+    border: none;
+}
+#service-dropdown:hover{
+    border: none;
+}
+/* **************************************** navbar section end here******************************************** */
+
+
+/* ------------------------- banner-section start here ---------------------------- */
+
+
+
+.banner-section{
+    
+    background:  url("/asset/images/banner/tree.jpg");
+    
+}
+.banner-background-color{
+    background-color: rgba(3, 46, 3, 0.837);
+    padding-top: 30px;
+}
+.banner-section .banner-background-color .banner-left {
+    color: var(--white);
+ 
+    
+}
+.banner-left{
+    text-align: center;
+}
+.banner-left a{
+    background-color: var(--orange);
+    color: var(--white);
+    text-decoration: none; 
+
+}
+.banner-left h3{
+    background-color: var(--orange);
+    color: var(--white);
+    text-decoration: none; 
+
+}
+.banner-left a:hover{
+    color: var(--white);
+    cursor:text;
+
+
+}
+.hr{
+    background-color: #fff;
+}
+.submit-b button{
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* query-section */
+.query-section{
+    background-color: var(--darkgreen);
+    border-radius: 25px;
+
+}
+.query-section input{
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+}
+.query-section select{
+    border-radius: 4px;
+}
+
+.query-section textarea{
+    border-radius: 4px;
+}
+.query-section h5{
+    color: var(--white);
+}
+
+
+
+/* ------------------------- banner-section start here ---------------------------- */
+
+
+
+/* -------------- experience start here ------------------  */
+.experience{
+    /* background-image: url("/asset/images/banner/tree.jpg"); */
+    background-color: var(--darkgreen);
+}
+.Experienced-doctor,.beds{
+    border-right: 1px solid white;
+}
+.Experienced-doctor h2,.beds h2,.feedback h2{
+    color: var(--yellow);
+    /* font-size: 18px; */
+}
+.Experienced-doctor p,.beds p,.feedback p{
+    color: var(--white);
+    /* font-size: 18px; */
+}
+/* -------------- experience end here ------------------  */
+
+
+
+
+/* about-us start here */
+
+.about-text{
+    line-height: 1.8;
+    font-family: "Open Sans", sans-serif;
+}
+/* about-us end here */
+
+
+/* about-banner start here */
+
+.about-banner{
+    background:url("/assest/images/card-image/serve_static.jpeg");
+    background-repeat: no-repeat;
+    color: var(--white);
+
+    
+}
+.about-banner-text p{
+    font-family: "Open Sans", sans-serif;
+
+}
+.about-color{
+    background-color: rgba(20, 81, 20, 0.808);
+}
+
+/* about-banner end here */
+
+
+
+/* choose-Ayukarma start here */
+.choose-Ayukarma h1{
+color: var(--green);
+    font-family:"Herr Von Muellerhoff", cursive;
+}
+.service-text{
+    color: var(--black);
+}
+
+
+.diagonistic-line-div,.Pharmacy-line-div,.Satvik-Aahaar-line-div,.Inpatient-Care-line-div{
+    text-align: center;
+}
+.Diagnostic ,.Pharmacy,.nasyam-Aahaar,.Inpatient-Care{
+    background-color: var(--darkgreen);
+    color: var(--white);
+}
+.bordesr{
+    padding-bottom: 11px;
+    border-top: 2px solid rgb(38, 151, 38);
+    padding-top: 8px;
+
+    border-bottom: 2px solid rgb(38, 151, 38);
+}
+.Diagnostic img{
+
+    width: 400px !important;
+    height: 230px;
+
+}
+.nasyam-Aahaar  img{
+
+    width: 400px !important;
+    height: 240px;
+
+}
+.nasyam-border{
+    padding-bottom: 12px;
+    border-top: 2px solid rgb(38, 151, 38);
+    padding-top: 8px;
+
+    border-bottom: 2px solid rgb(38, 151, 38);
+}
+.pizhichil-border{
+    padding-bottom: 12px;
+    border-top: 2px solid rgb(38, 151, 38);
+    padding-top: 8px;
+
+    border-bottom: 2px solid rgb(38, 151, 38);
+}
+.pizhichil-border img{
+    width: 400px !important;
+    height: 240px;
+ 
+
+
+}
+.Pharmacy .fa{
+    font-size: 45px;
+}
+.Satvik-Aahaar .fa{
+    font-size: 45px;
+}
+.Inpatient-Care .fa{
+    font-size: 45px;
+}
+.Diagnostic-line{
+    width: 250px;
+    height: 25px;
+    display: inline-block;
+    background-color: var(--green);
+    color: var(--white);
+}
+.Diagnostic-line:hover{
+    
+    background-color: var(--orange);
+    color: var(--white);
+    transition: all ease-in-out 1s;
+}
+.Diagnostic-line a{
+    text-decoration: none;
+    color: var(--white);
+}
+.Diagnostic-line a:hover{
+    text-decoration: none;
+    color: var(--white);
+}
+/* choose-Ayukarma end here */
+
+
+/* ********************************************  Ayurvedic-treatment css start here*******************************/
+.Ayurvedic-treatment h1{
+    font-family: 'Dancing Script',cursive;
+}
+
+.underline{
+    width: 70px;
+    background-color: var(--green);
+    display: inline-block;
+    height: 2px;
+}
+
+.acute-kidney,.kidney-chronic,.Polycystic-chronic,.creatinined,.proteinuria,.nephrotic{
+    border: 1px solid var(--red);
+    border-top: none;
+    border-left: none;
+    width: 100%;
+    height: 100%;
+
+   
+
+    /* border-bottom: 1px solid var(--red);
+    border-right: 1px solid var(--red); */
+}
+.acute-kidney:hover{
+    background-color: var(--brown);
+    color: var(--white);
+
+}
+.acute-kidney:hover a{
+    /* filter: brightness(0)invert(1); */
+    color: var(--white);
+
+}
+.acute-kidney:hover img{
+    filter: brightness(0)invert(1);
+    color: var(--white);
+
+}
+.acute-kidney img{
+  
+
+}
+
+.acute-kidney-text a{
+    text-decoration: none;
+    color: var(--brown);
+}
+.acute-kidney-text a,.kidney-chronic-text a,.Polycystic-chronic-text a,.creatinine-kidney-text a,.proteinuria-text a,.nephrotic-text a{
+text-decoration: none;
+
+}
+.kidney-chronic img{
+    width: 100px;
+    
+}
+
+.kidney-chronic:hover{
+    background-color: var(--brown);
+    color: var(--white);
+}
+
+.kidney-chronic:hover a{
+    /* filter: brightness(0)invert(1); */
+    color: var(--white);
+
+}
+.kidney-chronic-text a{
+    text-decoration: none;
+    color: var(--brown);
+}
+.kidney-chronic:hover img{
+    filter: brightness(0)invert(1);
+    color: var(--white);
+
+}
+.Polycystic-chronic img{
+    width: 100px;
+    
+}
+.Polycystic-chronic-text a{
+    text-decoration: none;
+    color: var(--brown);
+}
+.Polycystic-chronic:hover{
+    background-color: var(--brown);
+    color: var(--white);
+}
+.Polycystic-chronic:hover a{
+    /* filter: brightness(0)invert(1); */
+    color: var(--white);
+
+}
+.Polycystic-chronic:hover img{
+    filter: brightness(0)invert(1);
+    color: var(--white);
+
+}
+.creatinined img{
+    width: 100px;
+    
+}
+.creatinine-kidney-text a{
+    text-decoration: none;
+    color: var(--brown);
+}
+.creatinined:hover{
+    background-color: var(--brown);
+    color: var(--white);
+}
+.creatinined:hover a{
+    /* filter: brightness(0)invert(1); */
+    color: var(--white);
+
+}
+.creatinined:hover img{
+    filter: brightness(0)invert(1);
+    color: var(--white);
+
+}
+.proteinuria img{
+    width: 100px;
+    
+}
+.proteinuria-text a{
+    text-decoration: none;
+    color: var(--brown);
+}
+.proteinuria:hover{
+    background-color: var(--brown);
+    color: var(--white);
+}
+.proteinuria:hover a{
+    /* filter: brightness(0)invert(1); */
+    color: var(--white);
+
+}
+.proteinuria:hover img{
+    filter: brightness(0)invert(1);
+    color: var(--white);
+
+}
+.nephrotic img{
+    width: 75px;
+    
+}
+.nephrotic-text a{
+    text-decoration: none;
+    color: var(--brown);
+}
+.nephrotic:hover{
+    background-color: var(--brown);
+    color: var(--white);
+}
+.nephrotic:hover a{
+    /* filter: brightness(0)invert(1); */
+    color: var(--white);
+
+}
+.nephrotic:hover img{
+    filter: brightness(0)invert(1);
+    color: var(--white);
+
+}
+/* ********************************************  Ayurvedic-treatment css end here*******************************/
+
+
+/* *****************************  view treatment session css  start */
+
+.treatment-button a{
+    text-decoration: none;
+
+    background-color: var(--green);
+    color: var(--white);
+
+}
+.treatment-button a:hover{
+    text-decoration: none;
+transition: all ease-in-out 1s;
+    background-color: var(--orange);
+    color: var(--white);
+
+}
+
+.treatment-button {
+    
+
+}
+
+
+
+
+/* *****************************  view treatment session css  end  */
+
+/* ***************************video session css start here ************************* */
+
+.video-div{
+    margin-top: -14px;
+    margin-left: 15px;
+
+}
+.video-line{
+    width: 250px;
+    height: 10px;
+    align-items: center;
+    display: inline-block;
+    background-color: var(--orange);
+}
+
+.gallery-1 img{
+height: 350px;
+
+}
+.galley h1{
+    color: var(--green);
+    font-family: Montserrat, sans-serif;
+}
+.meditation{
+    border: 2px solid var(--white);
+}
+/* ***************************video session css end here ************************* */
+
+
+
+/* ***************************footer session css start here ************************* */
+
+.footers{
+    
+    background-image: url("../images/card-image/serve_static.jpeg");
+
+
+}
+
+.footer-back{
+    background-color: rgba(4, 60, 4, 0.823);
+}
+.footer-logo{
+    color: var(--white);
+}
+.footer-logo img{
+}
+
+.get-touch ul li{
+    list-style: none;
+    color: var(--white);
+}
+.get-touch .fa{
+    color: var(--white) ;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: var(--orange);
+    padding: 9px;
+}
+.get-touch h5{ 
+    border-bottom: 1px solid gray;
+    color: var(--orange);
+    width: 50%;
+
+}
+
+.site-map ul li{
+    list-style: none;
+    color: var(--white);
+    line-height: 1.9;
+}
+
+.site-map  a{
+text-decoration: none;
+}
+.site-map ul  li:hover {
+    border-bottom: 1px solid var(--red);
+    width: 30%;
+}
+.site-map h5{ 
+    border-bottom: 1px solid gray;
+    color: var(--orange);
+    width: 50%;
+}
+
+.copyright{
+    color: var(--white);
+}
+/* ***************************footer session css end here ************************* */
+
+
+
+
+/* ******************************** about us ******************************** */
+
+/* breadcrumb-section start */
+.bredcrumb-section{
+    padding-top:20px ;
+    /* padding-left: 50px; */
+}
+.bredcrumb-section a {
+    text-decoration: none;
+}
+/* breadcrumb-section end */
+
+/* about-us section start here */
+
+.about-us{
+    padding-top: 70px;
+}
+.about-us-photo{
+
+}
+
+.about-us .about-us-text p{
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+
+
+/* about-us section end here */
+.banner-text .container{
+    width: 100%;
+}
+
+.banner-text .slogan{
+    margin-top: 50px;
+    background-color: var(--darkgreen);
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+/* about-us-cards start here */
+
+
+
+.about-us-cards-text h3{
+    color: var(--green);
+    font-weight: 500;
+}
+.about-us-cards-text p{
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* about-us-cards end here */
+
+
+
+/* ******************************** about us ******************************** */
+
+
+
+
+
+/* ******************************** Gallery Section start here ******************************** */
+
+.gallery-section .gallery-section-heading h3{
+    text-align: center;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+
+}
+.gallery-section .photo-1 {
+    /* padding: 20px !important; */
+    margin: 10px;
+
+}
+.photo-1 {
+    position: relative;
+    width: 100%;  /* Ensure the container is responsive */
+    margin: 15px 0px;
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay:hover  {
+        opacity: 1;  /* Overlay will be visible on hover */
+    }
+
+.direction i {
+    color: #fff;  /* White icon */
+    font-size: 2rem;  /* Size of the icon */
+}
+
+ 
+
+
+
+
+
+/* ******************************** Gallery Section end here ******************************** */
+
+/* ******************************** Contact-banner-section  start here ******************************** */
+.contact-banner-section{
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    background: url("../images/banner/contact-banner.avif");
+    color: var(--white);
+
+}
+.contact-banner-background{
+    background-color: rgba(0, 0, 0, 0.581);
+}
+.contact-heading{
+    padding-left: 35px;
+    color: var(--green);
+}
+
+
+
+
+
+/* ******************************** Contact-banner-section  end here ******************************** */
+
+
+/* ******************************** Contact-adress start here ******************************** */
+
+
+
+.contact-address-text{
+    padding: 10px;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-wrap: wrap; */
+    background-color: var(--darkgreen);
+}
+.contact-address-text a{
+    /* padding: 10px 20px 0px 20px; */
+    text-decoration: none;
+    color: var(--white);
+}
+.contact-address-text a:hover{
+    color: var(--white);
+
+}
+.contact-address-text a i{
+    color: var(--white);
+    padding-right: 7px;
+}
+.contact-text{
+    
+}
+
+
+/* ******************************** Contact-us address end here ******************************** */
+
+
+
+
+/* ******************************** Contact us Section start here ******************************** */
+
+.contact-us-session .contact-text{
+    border: 1px solid white;
+    border-radius: px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.69) 0px 18px 50px -10px;
+}
+
+.contact-us-session .contact-text .btn{
+    background-color: var(--green);
+    color: var(--white);
+
+
+}
+     .contact-location-text a{
+    text-decoration: none;
+    color: var(--black);
+
+}
+.contact-location-text h3{
+    color: var(--green);
+}
+.contact-location-text a:hover{
+    text-decoration: none;
+    color: var(--black);
+
+}
+ .contact-location-icon .fa{
+    font-size: 25px;
+    color: var(--green);
+}
+
+
+
+
+
+
+/* ******************************** Contact us Section end here ******************************** */
+    
